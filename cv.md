@@ -1,17 +1,17 @@
-<html>
-#Anrey Shabunevich
-##My contacts
-###Phone: +375444706286
-###E-mail: nord852@gmail.com
-###GitHub: nord852
-##About me
-###I am 26, I am fond of computer technology, I would like to master programming languages in order to create useful and functional things to simplify human life.
-##Skills
-*C#
-*Photoshop
-*Autocad
-##Code example
-```C#
+
+# Anrey Shabunevich
+## My contacts
+### Phone: +375444706286
+### E-mail: nord852@gmail.com
+### GitHub: nord852
+## About me
+### I am 26, I am fond of computer technology, I would like to master programming languages in order to create useful and functional things to simplify human life.
+## Skills
+* C#
+* Photoshop
+* Autocad
+## Code example
+``` C#
         private void ggg1()
         {
             string s12 = (string)dataGridView3.Rows[0].Cells[1].Value;
@@ -25,7 +25,6 @@
                 }
             }
 ```
-##Languages
-*Russian
-*English A2
-</html>
+## Languages
+* Russian
+* English A2
