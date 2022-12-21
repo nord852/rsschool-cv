@@ -28,6 +28,12 @@ body{
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
 .header{
     background-color:#4b6154;
     padding: 16px 0 16px;
@@ -88,12 +94,14 @@ body{
     height: 250px;
     flex-basis: content;
 }
+
 .info-container{
     justify-content: center;
     align-items: center;
     padding: 0 10px 0 10px;
     font-size: 15px;
 }
+
 h2{
     font-family: 'Raleway', sans-serif;
     line-height: 50px;
@@ -110,6 +118,7 @@ h2{
 .code-field{
     background-color: #4b6154;
 }
+
 .title{
     text-transform: uppercase;
     font-size: medium;
@@ -130,13 +139,8 @@ h2{
     background-color:#4b6154;
     font-size: 20px;
 }
+
 .github-logo,
 .rs-logo {
     height: 40px;
 }
-
-
-
-
-
-
