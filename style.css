@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #0a0a0a;
+    background-color: #e7f5dc;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.header{
+    background-color:#4b6154;
+    padding: 16px 0 16px;
+    font-size: 14px;
+    line-height: 20px;
+    justify-content: center;
+}
+
+.container{
+    margin: 0 auto;
+    color: #0a0a0a;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list{
+    justify-content:center;
+    align-items: center;
+}
+
+.menu-item a {
+    color: #0a0a0a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .menu-item a:hover {
+    color: #c0dfc2;
+  }
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.menu-item{
+    padding-right: 30px;
+}
+
+.main-container{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.headline{
+    padding: 20px 0 20px;
+    background-color: #64ac8f;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.headline-img{
+    width: 200px;
+    height: 250px;
+    flex-basis: content;
+}
+
+.info-container{
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.title-about-me{
+    align-items:stretch;
+}
+.about-me-data{
+    display: flex;
+}
+.code-field{
+    background-color: #4b6154;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: medium;
+    text-decoration: underline;
+    padding: 0 0 0 40px;
+}
+
+.status-title{
+    font-size: small;
+    padding: 0 0 0 40px;
+}
+
+.footer_inner{
+    padding: 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color:#4b6154;
+    font-size: 20px;
+}
+
+.github-logo,
+.rs-logo {
+    height: 40px;
+}
