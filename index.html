@@ -4,8 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav-list">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#about-me">About me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#code">Code example</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#languages">Languages</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#contacts">My contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="headline">
+            <div class="container">
+                <div class="name">
+                    <div class="avatar">
+                        <img src="images/avatar.jpg" alt="avatar" class="headline-img">
+                    </div>
+                    <div class="title-discr">
+                        <h1 class="title">Andrey Shabunevich</h1>
+                        <div class="status-title"><span>Studying Front-End Developer</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="info-container">
+            <section class="info-about-me" id="about-me">
+                <div class="container">
+                    <h2 class="title-about-me">About me</h2>
+                    <p class="about-me-data">I'm 26 years old. Graduated in 2019 from the Belarusian State Academy of Communications with a degree in infocommunication engineer 
+                        I'm fond of computer technology, I would
+                        like to master programming languages in order to create useful and functional things to simplify human life.</p>
+                </div>
+            </section>
+            <section class="info-code" id="code">
+                <div class="container">
+                    <h2 class="title-code">Code example</h2>
+                    <div class="code-field">
+                        <code>
+                            &nbsp;&nbsp;function multiply(a, b){
+                            <br>
+                            &nbsp;&nbsp;a * b
+                            <br>
+                            &nbsp;&nbsp;}
+                        </code>
+                    </div>
+                </div>
+            </section>
+            <section class="info-skills" id="skills">
+                <div class="container">
+                    <h2 class="title-skills">Skills</h2>
+                    <ul class="skills-data">
+                        <li>C# (learnt in the university)</li>
+                        <li>Autocad</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="info-languages" id="languages">
+                <div class="container">
+                    <h2 class="title-languages">Languages</h2>
+                    <ul class="Languages-data">
+                        <li>Russian</li>
+                        <li>English (A2)</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="info-contacts" id="contacts">
+                <div class="container">
+                    <h2 class="title-contacts">My contacts</h2>
+                    <ul class="cont-data">
+                        <li>E-mail: nord852@gmail.com</li>
+                        <li>Discord: nord852</li>
+                        <li>GitHub: nord852</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <a href="https://github.com/nord852">
+                <img src="images/github-1.svg" alt="github logo" class="github-logo">
+            </a>
+                <p>2022</p>
+                <a href="https://rs.school/js/">
+                    <img src="images/logo_rs.svg" alt="rs logo" class="rs-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
